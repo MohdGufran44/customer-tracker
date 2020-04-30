@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.semantic.crm.entity.Customer;
 import com.semantic.crm.service.CustomerService;
 
-
-
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
@@ -23,7 +21,7 @@ public class CustomerController {
 		// TODO Auto-generated constructor stub
 	}
 
-	// need to inject our customer service
+		//inject our customer service
 		@Autowired
 		private CustomerService customerService;
 		

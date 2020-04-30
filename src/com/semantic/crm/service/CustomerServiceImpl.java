@@ -1,4 +1,4 @@
-package com.semantic.crm.service;
+ package com.semantic.crm.service;
 
 import java.util.List;
 

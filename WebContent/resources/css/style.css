@@ -4,12 +4,17 @@ html, body{
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 }
  
-#headerDiv {width: 100%; margin-top: 35px; margin-left: 150px; margin-bottom: 25px}
+#headerDiv {width: 100%; margin-top: 35px; margin-left: 150px; margin-bottom: 10px}
 #header {width: 70%; background: #659DBD; margin-top: 0px; padding:15px 0px 15px 15px;}
 #header h2 {width: 100%; margin:auto; color: #FFFFFF;}
-#container {width: 100%; margin:auto}
-#container h3 {color: #000;}
-#container #content {margin-top: 20px;}
+
+#container { 
+	 position: absolute;
+	 top: 35%;
+	 left: 35%;
+	 margin: -100px 0 0 -150px;
+}
+
 
 .add-button {
 	border: 2px; 
@@ -19,7 +24,7 @@ html, body{
 	width: 150px;
 	
 	margin-bottom: 25px;
-	margin-left:150px;
+	margin-left:10px;
 }
 
 .serch-button {
@@ -36,4 +41,9 @@ html, body{
 
 #sbox{
 	margin-left: 200px;
+}
+
+#content{
+	 margin: 0 auto;
+    text-align: center;
 }

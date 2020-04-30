@@ -28,11 +28,7 @@
 	
 		<div id="content">
 		
-			<!-- put new button: Add Customer -->
-			<input type="button" value="Add Customer"
-				   onclick="window.location.href='showFormForAdd'; return false;"
-				   class="btn btn-secondary add-button"
-			/>
+			
 		
 			<!--  add a search box -->
 			<form:form action="search" method="GET" >
@@ -43,7 +39,7 @@
 			
 			<!--  add our html table here -->
 		
-			<table class="table table-striped table-bordered text-center">
+			<table class="table table-striped table-bordered text-center" >
 				<tr>
 					<th>First Name</th>
 					<th>Last Name</th>
@@ -82,6 +78,12 @@
 				</c:forEach>
 						
 			</table>
+			
+			<!-- put new button: Add Customer -->
+			<input type="button" value="Add Customer"
+				   onclick="window.location.href='showFormForAdd'; return false;"
+				   class="btn btn-secondary add-button"
+			/>
 				
 		</div>
 	
